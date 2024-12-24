@@ -1,0 +1,41 @@
+
+body{
+    background: #9787db;
+    padding: 50px;
+    align-items: center;
+
+}
+.container{
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 30px;
+    max-width: 400px;
+    align-content: center;
+    margin:auto;
+    box-shadow: #574e81;
+}
+h1{
+    text-align: center;
+}
+.group{
+    margin-bottom: 15px;
+}
+.group input,select{
+    
+    margin-top: 5px;
+    border-radius: 4px;
+
+}
+.group button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.group button:hover {
+    background-color: #28744e;
+}
