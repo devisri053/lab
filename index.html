@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        body{
+            background: #9787db;
+            padding: 50px;
+            align-items: center;
+
+        }
+        .container{
+            background-color: aliceblue;
+            padding: 50px;
+            border-radius: 30px;
+            max-width: 400px;
+            align-content: center;
+            margin:auto;
+            box-shadow: #574e81;
+        }
+        h1{
+            text-align: center;
+        }
+        .group{
+            margin-bottom: 15px;
+        }
+        .group input,select{
+            
+            margin-top: 5px;
+            border-radius: 4px;
+
+        }
+        .group button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .group button:hover {
+            background-color: #28744e;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <h1>Workshop Registration Form</h1>
+        <form >
+            <div class="group">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div><br>
+            <div class="group">
+                <label for="regnum">Register Number</label><br>
+                <input type="text" id="regno" name="regno" placeholder="Enter your register number" required>
+            </div><br>
+            <div class="group">
+                <label fro="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your collage email" required>
+            </div><br>
+            <div class="group">
+                <label for="department">Select your department</label><br>
+                <select id="dept" name="dept" required>
+                    <option value="">--please select--</option>
+                    <option value="CSE">CSE</option>
+
+                    <option value="CST">CST</option>
+                    <option value="ECE">ECE</option>
+                    <option value="ECT">ECT</option>
+                    <option value="AIML">AIML</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="MECH">MECH</option>
+                </select>
+            </div><br>
+            <div class="group">
+                <label for="workshop" >Select the workshop</label><br>
+                <input type="radio" name="workshop">AI<br>
+                <input type="radio" name="workshop">Full stack<br>
+                <input type="radio" name="workshop">Cyber security<br>
+                <input type="radio" name="workshop">Block Chain Technology<br> 
+                <input type="radio" name="workshop">Data Analytics
+            </div><br>
+            <div class="group">
+                <label for="number">Mobile Number</label><br>
+                <input type="tel" id="num" name="num">
+            </div><br>
+            <div class="group">
+                <button name="button" type="submit" onclick=<a href="t.html"></a>>Submit</button>
+            </div>
+        </form>
+    </div>
+    
+
+</body>
+</html>
