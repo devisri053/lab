@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devi-register-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devi-register
+  template:
+    metadata:
+      labels:
+        app: devi-register
+    spec:
+      containers:
+      - name: devi-register
+        image: devisri053/devi-register
+        ports:
+        - containerPort: 3000
